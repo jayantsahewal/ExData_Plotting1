@@ -14,7 +14,7 @@ par(mfrow=c(2,2))
 
 ## subplot(1, 1)
 plot(data$global_active_power ~ data$datetime, 
-     ylab="Global Active Power (kilowatts)", xlab="", type="l")
+     ylab="Global Active Power", xlab="", type="l")
 
 ## subplot(1, 2)
 plot(data$voltage ~ data$datetime, ylab="Voltage", 
